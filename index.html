@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Msquare Properties</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 1em 0;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1em;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        .section {
+            padding: 2em 0;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        .services, .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service, .testimonial {
+            flex: 1 1 30%;
+            margin: 1em;
+            padding: 1em;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .cta {
+            background-color: #1abc9c;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+        .cta a {
+            background-color: #16a085;
+            color: white;
+            padding: 1em 2em;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta a:hover {
+            background-color: #149174;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 1em;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1em;
+            margin: 0.5em 0;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 1em 2em;
+            background-color: #16a085;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #149174;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Msquare Properties</h1>
+    <p>Your Home, Our Commitment. Selling Made Simple.</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#blog">Blog</a>
+</nav>
+
+<div class="hero" id="home">
+    <div class="container">
+        <h1>Welcome to Msquare Properties</h1>
+        <p>We buy houses fast, for cash, in any condition</p>
+        <a href="#contact" class="cta-button">Get a Cash Offer Now</a>
+    </div>
+</div>
+
+<div class="section" id="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Welcome to Msquare Properties, your trusted partner in real estate solutions. At Msquare Properties, we specialize in helping motivated sellers navigate the complexities of selling their homes quickly and efficiently. Our mission is to provide exceptional service, transparency, and value to homeowners looking to sell their properties in any condition.</p>
+        <p>Our team comprises experienced real estate professionals who understand the nuances of the housing market and are committed to helping homeowners achieve their goals. We pride ourselves on our integrity, professionalism, and customer-centric approach.</p>
+    </div>
+</div>
+
+<div class="section" id="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Direct Home Purchases</h3>
+                <p>We buy homes directly from sellers, providing a quick and straightforward alternative to the traditional real estate market.</p>
+            </div>
+            <div class="service">
+                <h3>As-Is Property Sales</h3>
+                <p>We purchase properties in their current condition, eliminating the need for repairs, renovations, or any additional investments from the seller.</p>
+            </div>
+            <div class="service">
+                <h3>Fast Closing</h3>
+                <p>Our streamlined process ensures that we can close deals quickly, often within days or weeks, rather than months.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section cta">
+    <div class="container">
+        <h2>Ready to Sell Your Home?</h2>
+        <p>Contact us today to get a cash offer for your home. No repairs needed, no fees, and no commissions.</p>
+        <a href="#contact">Get a Cash Offer Now</a>
+    </div>
+</div>
+
+<div class="section" id="testimonials">
+    <div class="container">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"Msquare Properties made the process of selling our home so easy and stress-free. We received a fair offer and closed within a week!" - John Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"I was amazed at how quickly Msquare Properties bought my house. They took care of everything, and I didn't have to do any repairs." - Jane Smith</p>
+            </div>
+            <div class="testimonial">
+                <p>"The team at Msquare Properties is professional and transparent. They provided a great experience from start to finish." - Mark Wilson</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Msquare Properties. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
